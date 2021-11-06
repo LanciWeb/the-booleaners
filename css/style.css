@@ -1,40 +1,7 @@
 /* Generics */
-
-* {
-  box-sizing: border-box;
+body,
+figure {
   margin: 0;
-  padding: 0;
-}
-
-.container {
-  width: 80%;
-  margin: 0 auto;
-}
-
-.text-gray {
-  color: #808080;
-}
-
-.font-small {
-  font-size: 12px;
-}
-
-.w-50 {
-  width: 50%;
-}
-
-/* Header */
-
-.main-header {
-  height: 100px;
-  background-color: #4ea0ff;
-  background-image: url('../img/pattern.png');
-  background-size: 30%;
-}
-
-#logo {
-  margin-top: 40px;
-  height: 50px;
 }
 
 h1 {
@@ -42,70 +9,97 @@ h1 {
   margin-bottom: 0;
 }
 
-address {
-  font-style: normal;
-  font-size: 18px;
-}
 
-.author-name {
+
+a {
   color: #3cb4e7;
   text-decoration: none;
 }
 
-.article-pics {
-  margin-left: 0;
+address {
+  font-size: 18px;
+  font-style: normal;
 }
 
-.mark {
-  background-color: yellow;
-}
-ul {
-  list-style-position: inside;
+ul{
   padding-inline-start: 0;
+  list-style-position: inside;
 }
 
-thead {
-  color: #fff;
-  background-color: #20a9e5;
-}
-
-table {
+table{
   border-collapse: collapse;
 }
 
+th{
+  text-align:left;
+  color: #fff;background-color: #20a9e5;
+}
+
+/* Utilities */
+
+.container {
+  width: 1080px;
+  margin: 0 auto;
+}
+
+.text-gray {
+  color: #808080;
+}
+
+.text-small {
+  font-size: 12px;
+}
+
+.w-50{
+  width: 50%;
+}
+
 .odd {
-  background-color: #b1e5f2;
+  background-color: #b1e5f2
 }
 
-th {
-  text-align: left;
+/* Header */
+#main-header {
+  height: 100px;
+  background-color: #4ea0ff;
+  background-image: url('../img/pattern.png');
+  background-size: 30%;
+  line-height: 100px;
 }
 
-h3 {
-  font-size: 16px;
+#logo {
+  height: 50px;
+  vertical-align: middle;
 }
 
-#image-pc {
-  background-image: url('../img/monitor.jpg');
+
+/* Main content */
+.header-figure{
+  margin-top: 20px;
 }
 
-#image-graph {
-  background-image: url('../img/graph.jpg');
-}
 
-.related-image {
-  color: #fff;
-  font-weight: 600;
-  font-size: 18px;
+/* Footer */
+.related-image{
   width: 208px;
   height: 160px;
-  background-size: cover;
+  background-position:center;
   background-repeat: no-repeat;
-  background-position: center;
-  margin: 20px 0;
+  background-size: cover;
+  color: #fff;
+  margin: 10px 0;
   padding: 10px;
 }
 
-h4 {
+.related-image-title{
   margin: 0;
+  font-size: 18px;  
+}
+
+#pc-img{
+  background-image: url('../img/monitor.jpg');
+}
+
+#graph-img{
+  background-image: url('../img/graph.jpg');
 }
