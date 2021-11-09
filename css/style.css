@@ -9,8 +9,6 @@ h1 {
   margin-bottom: 0;
 }
 
-
-
 a {
   color: #3cb4e7;
   text-decoration: none;
@@ -21,18 +19,19 @@ address {
   font-style: normal;
 }
 
-ul{
+ul {
   padding-inline-start: 0;
   list-style-position: inside;
 }
 
-table{
+table {
   border-collapse: collapse;
 }
 
-th{
-  text-align:left;
-  color: #fff;background-color: #20a9e5;
+th {
+  text-align: left;
+  color: #fff;
+  background-color: #20a9e5;
 }
 
 /* Utilities */
@@ -50,12 +49,12 @@ th{
   font-size: 12px;
 }
 
-.w-50{
+.w-50 {
   width: 50%;
 }
 
 .odd {
-  background-color: #b1e5f2
+  background-color: #b1e5f2;
 }
 
 /* Header */
@@ -72,18 +71,16 @@ th{
   vertical-align: middle;
 }
 
-
 /* Main content */
-.header-figure{
+.header-figure {
   margin-top: 20px;
 }
 
-
 /* Footer */
-.related-image{
+.related-image {
   width: 208px;
   height: 160px;
-  background-position:center;
+  background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   color: #fff;
@@ -91,15 +88,15 @@ th{
   padding: 10px;
 }
 
-.related-image-title{
+.related-image-title {
   margin: 0;
-  font-size: 18px;  
+  font-size: 18px;
 }
 
-#pc-img{
+#pc-img {
   background-image: url('../img/monitor.jpg');
 }
 
-#graph-img{
+#graph-img {
   background-image: url('../img/graph.jpg');
 }
